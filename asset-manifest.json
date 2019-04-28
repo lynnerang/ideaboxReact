@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/ideaboxReact/static/css/main.bf9fa4b7.chunk.css",
+    "main.js": "/ideaboxReact/static/js/main.4a9f3992.chunk.js",
+    "main.js.map": "/ideaboxReact/static/js/main.4a9f3992.chunk.js.map",
+    "runtime~main.js": "/ideaboxReact/static/js/runtime~main.b5bae32e.js",
+    "runtime~main.js.map": "/ideaboxReact/static/js/runtime~main.b5bae32e.js.map",
+    "static/js/2.d6a534e5.chunk.js": "/ideaboxReact/static/js/2.d6a534e5.chunk.js",
+    "static/js/2.d6a534e5.chunk.js.map": "/ideaboxReact/static/js/2.d6a534e5.chunk.js.map",
+    "index.html": "/ideaboxReact/index.html",
+    "precache-manifest.5aae609827c088feaf2700f7e0ad65dc.js": "/ideaboxReact/precache-manifest.5aae609827c088feaf2700f7e0ad65dc.js",
+    "service-worker.js": "/ideaboxReact/service-worker.js",
+    "static/css/main.bf9fa4b7.chunk.css.map": "/ideaboxReact/static/css/main.bf9fa4b7.chunk.css.map",
+    "static/media/delete.svg": "/ideaboxReact/static/media/delete.527a2911.svg",
+    "static/media/downvote.svg": "/ideaboxReact/static/media/downvote.25ed1843.svg",
+    "static/media/mrpb.png": "/ideaboxReact/static/media/mrpb.7c98ec62.png",
+    "static/media/upvote.svg": "/ideaboxReact/static/media/upvote.0c69c417.svg"
+  }
+}

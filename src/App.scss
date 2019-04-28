@@ -97,3 +97,153 @@ section {
       transform: translate(-300px, 0px);
   }
 }
+
+@media only screen and (max-width:1150px) {
+  section {
+    min-width: 650px;
+    width: 60%;
+  }
+
+  button {
+    font-size: .8em;
+    padding: 5px;
+  }
+
+  .filter-button {
+    width: auto;
+  }
+}
+
+@media only screen and (max-width:830px) {
+  section {
+    min-width: 480px;
+    width: 80%;
+  }
+
+  header {
+    align-content: center;
+    flex-direction: column;
+    height: 135px;
+    padding: 0px;
+  }
+
+  h1 {
+    font-size: 2em;
+    margin: 10px;
+  }
+
+  .search-box {
+    flex: initial;
+    padding: 0px;
+  }
+
+  .search-box input {
+    min-height: 0px;
+    max-height: 35px;
+  }
+
+  .search-btn {
+    min-height: 0px;
+    max-height: 35px;
+    margin: 0 auto;
+  }
+
+  button {
+    font-size: .8em;
+    padding: 5px;
+  }
+}
+
+@media only screen and (max-width:525px) {
+
+  body {
+    font-size: 1.2em;
+  }
+
+  header {
+    height: 60px;
+  }
+
+  h1 {
+    font-size: 1.7em;
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+
+  h3.idea-quality {
+    font-size: 16px;
+  }
+
+  section {
+    min-width: 0px;
+    width: 90%;
+  }
+
+
+  .search-input {
+    display: none;
+  }
+
+  .search-btn {
+    background: none;
+    border: none;
+    font-size: 16px;
+    position: absolute;
+    right: 5px;
+    top: 12px;
+  }
+
+  .filter-label {
+    text-align: center;
+  }
+  
+  .filter-btns {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .filter-btn {
+    margin: 5px;
+    padding: 5px 10px;
+    width: auto;
+  }
+
+  header.header-open {
+    height: 120px;
+    justify-content: flex-start;
+    position: relative;
+  }
+
+  div.search-open {
+    border-radius: 5px;
+    height: auto;
+    left: 15px;
+    max-height: auto;
+    position: absolute;
+    right: 15px;
+    top: 65px;
+    width: 92%;
+  }
+
+  input.search-input-open {
+    display: inline-block;
+    width: 100%;
+  }
+
+  button.search-btn-open {
+    background-color: #d2cccd;
+    border-radius: 0px 5px 5px 0px;
+    position: static;
+  }
+
+  div.search-box i.fa-lg-open {
+    display: none;
+  }
+
+  div.search-box i.fa-minus-circle-open {
+    color: #fff;
+    display: inline-block;
+    font-size: 1.5em;
+    width: 25px;
+  }
+}

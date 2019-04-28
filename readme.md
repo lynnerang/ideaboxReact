@@ -55,13 +55,16 @@ Download a copy for yourself using the following instructions.
 
 Run the following command in your terminal:
 
-git clone https://github.com/lynnerang/ideaboxReact.git
+```git clone https://github.com/lynnerang/ideaboxReact.git```
+
 Then run the following command to install dependencies:
 
-npm install
+```npm install```
+
 To view the app in action, run the following command in your terminal:
 
-npm start
+```npm start```
+
 Then, go to http://localhost:3000/ in your browser to see the application run.
 
 

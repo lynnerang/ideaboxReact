@@ -1,0 +1,10 @@
+@import './App.scss';
+@import './Header.scss';
+@import './IdeaForm.scss';
+@import './IdeaList.scss';
+@import './Controls.scss';
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

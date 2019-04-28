@@ -1,0 +1,46 @@
+.idea-card {
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin: 20px 0px;
+}
+
+.card-main {
+  padding: 10px 20px;
+}
+
+.card-bottom {
+  border-top: 2px solid #d2cccd;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 10px;
+}
+
+.card-btns {
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.card-btns .btn-image {
+  margin-right: 20px;
+}
+
+.delete-btn {
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btn-image {
+  cursor: pointer;
+  height: 30px;
+  width: 30px;
+}
+
+.idea-quality {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0px;
+}

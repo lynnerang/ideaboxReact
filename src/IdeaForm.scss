@@ -1,0 +1,33 @@
+.new-idea-area {
+  background-color: #eaeaea;
+  width: 100%;
+}
+
+.idea-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.new-body-input {
+  height: 125px;
+}
+
+.save-btn {
+  font-size: 1em;
+  font-weight: 800;
+}
+
+.char-txt {
+  color: #a0a0a0;
+  font-size: 14px;
+  margin: 5px 0px 0px 5px;
+}
+
+.error {
+  color: rgba(109, 26, 26, 0.845);
+}
+
+.new-title-input:focus,
+.new-body-input:focus {
+  outline-color: #b2a1b1;
+}

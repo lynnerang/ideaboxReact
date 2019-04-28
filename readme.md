@@ -1,9 +1,8 @@
-# IdeaBox Triples
+# IdeaBox in React
 
 ## Table of contents
 * [General Info](#General-Info)
-* [Motivation](#Motivation)
-* [Built With](#Built-With) 
+* [Built Using](#Built-Using) 
 * [Screenshots](#Screenshots)
 * [How to Use](#How-to-Use)
 * [Setup](#Setup)
@@ -11,23 +10,19 @@
 
 ## General Info
 
-<h4 align="middle">A project where we built an application for recording and archiving our good ideas for Turing's Front-End Engineering course, Module 1.</h4>
+<h4 align="middle">This project involved rebuilding a previous project for recording and archiving ideas in React as opposed to vanilla JavaScript.  The focus was to become more familiar with the differences between application structure in vanilla JS versus a framework like React, and to become more comfortable coding in React.</h4>
 
-
-## Motivation
-
-Ideabox was a project assigned to us as Mod 1 students at Turing. Working with HTML, CSS and JS. This project was to help us understand how to implement client-side data persistence using localstorage, having a seperate data and dom model and how to iterate over them, and how to utilize data-* attributes.
-
-Here's the comp we were given:
+This is the original comp and project specifications provided for the project:
 
 <img src="http://frontend.turing.io/assets/images/projects/ideabox/ideabox-triples-01.jpg" alt="Original mock we worked from">
 
 
-## Built With
+## Built Using
 
-- HTML
-- CSS
-- JS
+- React
+- SCSS
+- localStorage
+- Webpack
 
 
 ## Screenshots
@@ -38,29 +33,40 @@ Here's the comp we were given:
 
 ## Features
 
-- [x] Viewing ideas
-- [x] Adding and editing a new idea
-- [x] Deleting an existing idea
-- [x] Changing the quality of an idea
-- [x] Filtering and searing by text and importance
-- [x] Recent ideas
-- [x] Character Counter
-- [x] Submit button disabled on character count
-- [x] 5 qualities total
+- [x] Viewing list of user-entered ideas, saved to local storage
+- [x] Adding, editing, and deleting of ideas
+- [x] Searing by keywords in title or body with real-time results
+- [x] Character counter and feedback on input validity
+- [x] 5 quality levels for upvoting, downvoting, and filtering on ideas
 
 
 ## How to Use
 
-Fill in the empty text boxes with a title and body for your new ideas. Upon pressing save the application saves your idea on the DOM and in local storage to access later. Every new idea starts with the quality of 'Mehhh' and allows the user to cycle up through 4 other quality options. When cycling up and down the card will save the new quality. Additionally the user can update the title and body section of existing cards. When the user fills up the page with new ideas they can press the 'Show less...' button and reduce the amount of cards on the DOM to 10, and then show more to show the additional cards. The user can filter through their idea cards by using the search box, or filter by quality by clicking on the corresponding quality button.
+Fill in the empty text boxes with a title and body for your new ideas. Upon pressing save, the application saves your idea in the list below and will be retained when you close the browser and come back. Every new idea starts with the quality of 'Mehhh' and allows you to vote up through 4 other quality options by clicking the upvote and downvote buttons. Additionally, you can update the title and body section of existing cards. When you fill up the page with more than ten ideas, it will show you your most recent ten and you can press the 'Show More...' button to view them all. You can search and filter through your ideas by using the search box and/or filter buttons and the list will update accordingly.
 
 
 ## Setup
 
-View <a href="https://github.com/lynnerang/ideabox">here</a> on my GitHub.
+View the application live: <a href="https://lynnerang.github.io/ideaboxReact">ideaboxReact on GitHub Pages</a>.
+
+OR
+
+Download a copy for yourself using the following instructions.
+
+Run the following command in your terminal:
+
+git clone https://github.com/lynnerang/ideaboxReact.git
+Then run the following command to install dependencies:
+
+npm install
+To view the app in action, run the following command in your terminal:
+
+npm start
+Then, go to http://localhost:3000/ in your browser to see the application run.
 
 
 ## License
 
-All credit goes to Turing School of Software for providing the project specifications and website design.
+All credit goes to Turing School of Software for providing the project specifications and design.
 
 
